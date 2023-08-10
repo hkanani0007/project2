@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(5, 5, 5);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    position:static;
+    top:0px;
+    
+}
+div img{
+    margin-left: 15px;
+    /* padding: 5px; */
+    width: 100px;
+    height: 50px;
+    display: flex;
+}
+section{
+
+    background-color: rgba(115, 196, 236, 0.962);
+    border-bottom: 2px solid black;
+    box-shadow: black 5px 5px 30px;
+    color: rgb(4, 4, 4);
+    position:sticky;
+    top:0px;
+    z-index: 1;
+    
+}
+section nav{
+    position:sticky;
+    top:10px;
+}
+ ul{
+    display: flex;
+    align-items: center;
+    
+}
+ ul li{
+    list-style-type: none;
+    float:right;
+}
+ li a{
+    margin-left: 80px;
+    text-align:center;
+    /* display:flexbox; */
+    text-decoration: none;
+    padding: 16px;
+    color: rgb(8, 8, 8);
+}
+li a:hover{
+    background-color: rgba(98, 97, 97, 0.142);
+    border-bottom: 5px solid black;
+}
+input{
+    margin-left: 450px;
+    padding: 5px;
+    /* width: 40%; */
+    
+}
+button{
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    color: black;
+    background-color: aqua;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.76);
+    color: white;
+    width: 100%;
+    height: 250px;
+    float: left;
+}
+.div1{
+    /* margin-left: 40px; */
+    padding: 30px;
+    float: left;
+    padding-left: 150px;
+}
+.div1 h1{
+    border-bottom: 3px solid white;
+    color: rgb(47, 211, 211);
+}
+.div2{
+    padding: 31px;
+    float: left;
+    padding-left: 150px;
+}
+.div2 h1{
+    border-bottom: 3px solid white;
+    color: rgb(47, 211, 211);
+}
+.div3{
+    padding: 31px;
+    padding-left: 150px;
+    float:left;
+}
+.div3 h1{
+    border-bottom: 3px solid white;
+    color: rgb(47, 211, 211);
+}
+.art{
+    background-color: rgba(0, 0, 0, 0.029);
+    height: 1500px;
+    width: 70%;
+    float: left;
+}
+
+.text{
+    margin: 30px;
+    width:100%;
+    height: 700px;
+    background-color:rgba(0, 255, 255, 0.047);
+    float: left;
+    text-align: center;
+    
+}
+.text #img1 img{
+    margin: 0px;
+    width: 97%;
+    height: 400px;
+}
+#img1 p h1{
+    text-align: center;
+    margin: 20px;
+}
+.divmore .more{
+    float: left;
+    width: 30%;
+    border-left:5px solid black;
+    background-color: rgb(160, 199, 238);
+    height: 1500px;
+    overflow: auto;
+}
+.abott{
+    text-align: center;
+    margin: 30px;
+    /* height: 500px; */
+    border: 1px solid black;
+}
+.abott h1{
+    border-bottom: 3px solid black;
+}
+ #img2 img{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 300px;
+}
+.abott2{
+    text-align: center;
+    margin: 30px;
+    border: 1px solid black;
+
+}
+.abott2 h1{
+    border-bottom: 3px solid black;
+}
+    
+.abott3{
+    text-align: center;
+     margin: 30px;
+     border: 1px solid black;
+}
+.abott3 h1{
+    border-bottom: 3px solid black;
+}
+.about22{
+    height: 1000px;
+}  
+.about33{
+    text-align: center;
+    padding: 30px;
+}      
+#more1 img{
+    border: 5px groove black;
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+.about33{
+   margin-bottom: 90px;
+}
+.about33 h1{
+    font-size: 40px;
+    border-bottom: 3px solid black;
+}
+#more2 p h1{
+    text-align:end;
+}
+.about44{
+      
+      text-align: center;
+      /* padding: 30px; */
+}
+#more6 h1{
+    font-size: 40px;
+    border-bottom: 3px solid black;
+}
+
+#more6 {
+   
+    width: 50%;
+    float: left;
+}
+#more7 img{
+     border: 5px groove black;
+     width: 50%;
+    height: 400px;
+
+}
+.articcle{
+    height: 1300px;
+    width: 100%;
+}
+.articcle h1{
+    margin-top: 30px;
+    border-bottom: 3px solid black;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.articcle #moreimg img{
+    margin: 0;
+    width: 100%;
+     height: 180px;
+}
+#moreimg{
+    margin: 30px;
+    height: 200px;
+    width: 20%;
+    border: 3px solid black;
+    float: left;
+    transition: width 2s, height 2s, transform 2s;
+    
+}
+.articcle h5{
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+#moreimg:hover{
+    transform: rotate(90deg);
+    box-shadow: black 5px 5px 80px;
+}
+#imgmore{
+    margin-top: 500px;
+} 
+#img77 img{
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+.hk{
+    margin: 30px;
+    width: 20%;
+    height: 200px;
+    border: 2px solid black;
+    background-image: url('/img/3kw-heat-press-machine-500x500.webp');
+
+    background-repeat: no-repeat;
+     background-size: 100% 100%;
+     /* background-attachment: fixed; */
+     /* background-position:center; */
+}
+.hk:hover{
+    background-color: rgba(0, 0, 0, 0.23);
+}
